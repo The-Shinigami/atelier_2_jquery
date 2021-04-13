@@ -1,0 +1,121 @@
+
+body {
+  background-color: darkkhaki;
+}
+
+p {
+  margin: 0;
+  font-family: Pacifico;
+  position: relative;
+  left: 5%;
+}
+
+.calculator {
+  position: relative;
+  margin: 1em auto;
+  padding: 1em 0;
+  display: block-inline;
+  width: 350px;
+  height:400px;
+  background-color: rgb(229, 227, 241);
+  box-shadow: 5px 5px 5px 0px #111;
+  font-size:xx-large;
+  font-family:Sakkal majalla;
+}
+
+.calc-row {
+  text-align: center;
+}
+
+.calc-row div.screen {
+  font-family:Sakkal majalla;
+  display: table;
+  width: 88%;
+  background-color: rgb(243, 240, 240);
+  text-align: right;
+  font-size: 1.4em;
+  margin-left: 0.5em;
+  padding-right: 0.5em;
+  border: 1px solid #888;
+  color: #333;
+  border-radius: 0%;
+}
+#small_screen{
+  cursor: pointer;
+  text-align: center;
+  margin-left: auto;
+  border:0px !important;
+  background-color: #eee;
+  padding:unset;
+  margin: 0px !important;
+  border-radius: 0px !important;
+  box-shadow: 0px 0px 0px 0px #222;
+  position:relative;
+  top:14px;
+}
+#small_operator{
+  cursor: pointer;
+  text-align: center;
+  margin-left: auto;
+  border:0px !important;
+  background-color: #eee;
+  padding:unset;
+  margin: 0px !important;
+  border-radius: 0px !important;
+  box-shadow: 0px 0px 0px 0px #222;
+  position:relative;
+  top:-40px;
+  height:15px;
+}
+#screen{
+  cursor: pointer;
+  border:0px !important;
+  box-shadow: 0px 0px 0px 0px #222;
+  overflow:hidden;
+}
+#plus{
+    height:115px;
+    position: relative;
+    top:-8rem;
+    left:16rem;
+    display: table;
+    background-color:rgba(30, 14, 255, 0.2) !important;
+
+    
+}
+#plus span{
+    vertical-align:middle;
+    display: table-cell;
+}
+
+
+.calc-row div {
+    cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  border: 1px solid #555;
+  background-color: #eee;
+  padding:unset;
+  margin: 7px 5px;
+  border-radius: 10px;
+  box-shadow: 5px 2px 10px 0.05px #222;
+  width: 50px;
+}
+
+.calc-row div.zero {
+  width: 112px;
+}
+
+.calc-row div.zero {
+  margin-right: 5px;
+}
+.red{
+    background-color:rgba(228, 46, 46, 0.5) !important;
+}
+.blue{
+    background-color:rgba(30, 14, 255, 0.3) !important;
+}
+.yellow{
+    background-color:rgba(236, 240, 24, 0.911) !important;
+}

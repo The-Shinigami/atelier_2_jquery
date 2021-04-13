@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <script src="../js//jquery-1.12.0.min.js"></script>
+  <script src="../js//jquery.validation-1.14.0.min.js"></script>
+
+  <title>Document</title>
+</head>
+
+<!doctype html>
+<html lang="en">
+
+<body>
+  <!-- le titre -->
+  <header class="container" >
+<div  style=" margin: auto; width: fit-content; font-family: 'Times New Roman', Times, serif;"><h1 >Le QCM</h1></div>
+  </header>
+  <!-- Row 1 -->
+  <div class="container">
+
+    <div class="row position">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">la somme de 1+"1"est : </h5>
+            <br>
+            <ul class="list-group">
+
+              <button type="button" name="q1"
+                class="btn btn-secondary wrong_1 list-group-item list-group-item-secondary">
+                <div><strong>2</strong></div>
+              </button>
+              <button type="button" name="q1"
+                class="btn btn-secondary right   list-group-item list-group-item-secondary">
+                <div><strong>11</strong></div>
+              </button>
+              <button type="button" name="q1"
+                class="btn btn-secondary  wrong_2 list-group-item list-group-item-secondary ">
+                <div><strong>20</strong></div>
+              </button>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Le nombre binaire 10011001 : </h5>
+            <ul class="list-group">
+
+              <button type="button" name="q2"
+                class="btn btn-secondary right list-group-item list-group-item-secondary">
+                <div><strong>est codé sur un octet.</strong></div>
+              </button>
+              <button type="button" name="q2"
+                class="btn btn-secondary  wrong_1 list-group-item list-group-item-secondary">
+                <div><strong>est codé sur 16 bits.</strong></div>
+              </button>
+              <button type="button" name="q2"
+                class="btn btn-secondary  wrong_2 list-group-item list-group-item-secondary ">
+                <div><strong>donne un nombre décimal à 8 chiffres.</strong></div>
+              </button>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Sans effectuer de calcul, dire si le nombre binaire 10011001 </h5>
+            <ul class="list-group">
+
+              <button type="button" name="q3"
+                class="btn btn-secondary wrong_1 list-group-item list-group-item-secondary">
+                <div><strong>donne un nombre décimal pair.</strong></div>
+              </button>
+              <button type="button" name="q3"
+                class="btn btn-secondary right list-group-item list-group-item-secondary">
+                <div><strong>donne un nombre décimal impair</strong></div>
+              </button>
+              <button type="button" name="q3"
+                class="btn btn-secondary wrong_2 list-group-item list-group-item-secondary ">
+                <div><strong>donne le nombre décimal 153.</strong></div>
+              </button>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+    <div class="row ">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Comment le nombre décimal 31 s'écrit-il en hexadécimal ? </h5>
+            <ul class="list-group">
+
+              <button type="button" name="q4"
+                class="btn btn-secondary right list-group-item list-group-item-secondary">
+                <div><strong> 1F</strong></div>
+              </button>
+              <button type="button" name="q4"
+                class="btn btn-secondary   wrong_1 list-group-item list-group-item-secondary">
+                <div><strong>FF</strong></div>
+              </button>
+              <button type="button" name="q4"
+                class="btn btn-secondary  wrong_2 list-group-item list-group-item-secondary ">
+                <div><strong>1FF</strong></div>
+              </button>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Comment le nombre décimal 256 s'écrit-il en hexadécimal  </h5>
+            <ul class="list-group">
+
+              <button type="button" name="q5"
+                class="btn btn-secondary  wrong_2 list-group-item list-group-item-secondary">
+                <div><strong>20</strong></div>
+              </button>
+              <button type="button" name="q5"
+                class="btn btn-secondary  wrong_1  list-group-item list-group-item-secondary">
+                <div><strong>200</strong></div>
+              </button>
+              <button type="button" name="q5"
+                class="btn btn-secondary   right list-group-item list-group-item-secondary ">
+                <div><strong>100</strong></div>
+              </button>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Le Resultat est : </h5>
+           
+           <strong id="resultat" style="font-family: 'Times New Roman', Times, serif;"></strong>
+          </div>
+          <div class="card-footer">
+            <button id="corriger" name="corriger" type="button" class="btn btn-outline-success"
+              id="left-panel-link"><strong >Corriger</strong></button>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+    <div class="modal-footer">
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+<script src="../js/change.js"></script>
+
+</html>

@@ -1,0 +1,67 @@
+html,
+
+/* la taille des inputs a l'interrieur de card */
+
+
+/*  la couleur de arriÃ©re plan */
+
+body{
+    background: url(../img/Top-15-des-audiences-du-e-commerce1.jpg) no-repeat;
+    background-size: cover;
+}
+.bg {
+    
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+
+}
+.card{
+    background-color: rgba(231, 225, 225, 0.92) !important;
+} 
+
+    .form-control:focus {
+        color: #1bbe5a !important;
+        background-color: #fff;
+        border-color: #80ff86!important;
+        outline: 0;
+        box-shadow: 0 0 0 0.3rem rgba(22, 190, 78, 0.25)!important;
+        }
+        .warning {
+            color:red!important;
+            background-color: #fff;
+            border-color: rgb(155, 71, 71)!important;
+            outline: 0;
+            box-shadow: 0 0 0 0.3rem rgba(190, 18, 12, 0.25)!important;
+            }
+            .warning:focus {
+                color:red!important;
+                background-color: #fff;
+                border-color: rgb(155, 71, 71)!important;
+                outline: 0;
+                box-shadow: 0 0 0 0.3rem rgba(190, 18, 12, 0.25)!important;
+                }
+
+
+
+        
+.error{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+    font-size:medium;
+
+}
+
+label{
+color: black;
+font-size:large;
+font-family: 'Times New Roman', Times, serif;
+}
+.form-control{
+    width: 60vh !important;
+}
+#check{
+    width:fit-content !important;
+}
